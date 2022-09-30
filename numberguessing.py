@@ -2,7 +2,7 @@ import random
 number = random.randint(1, 9)
 chanceCount = 0
 while (chanceCount < 5):
-    introString = int(input("enter the number between 1-9: "))
+    introString = int(input("guess the number between 1-9: "))
     if (introString > number):
         print("Your guess is too large")
     elif (introString == number):
